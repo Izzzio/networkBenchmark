@@ -1,0 +1,11 @@
+{
+  "name": "iz3-md5-hash",
+  "version": "1.0.0",
+  "description": "IZZZIO blockchain platform MD5 hashing plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Nedobylsky",
+  "license": "Apache-2.0"
+}

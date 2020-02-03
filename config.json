@@ -32,9 +32,10 @@
     "masterContract": 1
   },
   "signFunction": "",
-  "hashFunction": "SHA256",
+  "hashFunction": "MD5",
   "keyLength": 128,
   "plugins": [
-    "iz3-basic-crypto"
+    "iz3-basic-crypto",
+    "./iz3-md5-hash"
   ]
 }

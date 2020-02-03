@@ -47,10 +47,10 @@ class App extends DApp {
     init() {
         that = this;
 
-        process.on('SIGINT', () => {
-            console.log('Terminating test...');
-            process.exit();
-        });
+        /* process.on('SIGINT', () => {
+             console.log('Terminating test...');
+             process.exit();
+         });*/
 
         process.on('unhandledRejection', error => {
             logger.fatal(error);
