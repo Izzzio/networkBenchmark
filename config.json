@@ -10,30 +10,31 @@
   ],
   "upnp": {
     "enabled": true,
-    "token": "NetworkBenchmark"
+    "token": "iz3NetworkBench"
   },
   "genesisTiemstamp": 1558631869000,
   "generateEmptyBlockDelay": 86400000,
   "enableMessaging": false,
   "rpcPassword": "",
-  "blockAcceptCount": 5,
+  "blockAcceptCount": 0,
   "maxPeers": 25,
-  "workDir": "../runtime/",
-  "walletFile": "../runtime/wallet.json",
-  "walletsDB": "wallets",
-  "blocksDB": "blocks",
-  "appEntry": false,
+  "workDir": "./runtime/",
+  "walletFile": "./runtime/wallet.json",
+  "walletsDB": "mem://wallets.json",
+  "blocksDB": "mem://blocks.json",
+  "accountsDB": "mem://accounts.json",
+  "appEntry": "index.js",
   "startMessage": "IZZZIO NetworkBenchmark\n",
   "ecmaContract": {
-    "enabled": true,
+    "enabled": false,
     "allowDebugMessages": true,
     "contractInstanceCacheLifetime": 10000,
     "masterContract": 1
   },
-  "signFunction": "bitcore",
+  "signFunction": "",
   "hashFunction": "SHA256",
+  "keyLength": 128,
   "plugins": [
-    "iz3-bitcore-crypto",
     "iz3-basic-crypto"
   ]
 }
