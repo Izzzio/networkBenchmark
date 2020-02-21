@@ -9,7 +9,7 @@
     "thrusted"
   ],
   "upnp": {
-    "enabled": true,
+    "enabled": false,
     "token": "iz3NetworkBench"
   },
   "genesisTiemstamp": 1558631869000,
@@ -32,6 +32,7 @@
     "masterContract": 1
   },
   "signFunction": "NEWRSA",
+  "generatorFunction": "NEWRSA",
   "hashFunction": "MD5",
   "keyLength": 1024,
   "plugins": [

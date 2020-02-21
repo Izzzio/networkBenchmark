@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Izzzio/networkBenchmark/issues"
   },
-  "homepage": "https://github.com/Izzzio/networkBenchmark#readme"
+  "homepage": "https://github.com/Izzzio/networkBenchmark#readme",
+  "dependencies": {
+    "iz3-bitcore-crypto": "^1.0.1"
+  }
 }
